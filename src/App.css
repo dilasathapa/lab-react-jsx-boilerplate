@@ -1,1 +1,11 @@
 /* add your styles here */
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image-container img{
+    height: 300px;
+    width: 300px;
+}
